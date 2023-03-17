@@ -1,0 +1,296 @@
+2023-02-26T19:20:42.651Z [store-api] error undefined undefined - undefined
+2023-02-26T19:23:33.538Z [store-api] error undefined undefined - undefined
+2023-02-26T19:24:19.393Z [store-api] error POST  - Nome, cpf, email, telefone e endereço são obrigatórios
+2023-02-28T18:17:20.812Z [store-api] error POST  - Nome, cpf, email, telefone e endereço são obrigatórios
+2023-02-28T18:17:36.975Z [store-api] error POST  - Nome, cpf, email, telefone e endereço são obrigatórios
+2023-02-28T18:18:32.535Z [store-api] error POST  - connect is not a function
+2023-02-28T18:20:14.033Z [store-api] error POST  - connect is not a function
+2023-02-28T18:38:31.098Z [store-api] error POST  - repositories is not a function
+2023-02-28T18:38:58.408Z [store-api] error POST  - JASON is not defined
+2023-02-28T18:45:30.902Z [store-api] error POST  - JASON is not defined
+2023-02-28T18:50:41.431Z [store-api] error POST  - res is not defined
+2023-02-28T18:56:11.751Z [store-api] error POST  - JASON is not defined
+2023-02-28T19:12:03.107Z [store-api] info GET /client
+2023-02-28T19:24:11.488Z [store-api] error GET  - column "id" does not exist
+2023-02-28T19:27:02.636Z [store-api] info GET /client
+2023-02-28T19:34:22.545Z [store-api] info DELETE /client
+2023-02-28T19:36:48.828Z [store-api] info DELETE /client
+2023-02-28T19:37:38.601Z [store-api] info DELETE /client
+2023-02-28T19:38:43.042Z [store-api] info DELETE /client
+2023-02-28T19:41:24.640Z [store-api] info DELETE /client
+2023-02-28T19:41:40.858Z [store-api] info DELETE /client
+2023-02-28T19:42:25.635Z [store-api] info DELETE /client
+2023-02-28T20:02:21.553Z [store-api] error PUT  - Nome, cpf, email, telefone, endereço e client_id são obrigatórios
+2023-02-28T20:02:44.400Z [store-api] error PUT  - JASON is not defined
+2023-02-28T20:09:43.970Z [store-api] info PUT /client - {"client_id":6,"name":"Zefa Manefa","cpf":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-02-28T20:25:16.501Z [store-api] info PUT /client - {"client_id":7,"name":"Zefa Manefa","cpf":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-02-28T20:26:25.574Z [store-api] info PUT /client - {"client_id":6,"name":"Zefa Manefa","cpf":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-02-28T20:43:42.620Z [store-api] info POST /supplier - {"supplier_id":1,"name":"Zefa Manefa","cnpj":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-02-28T20:45:06.562Z [store-api] info POST /supplier - {"supplier_id":2,"name":"autpeças","cnpj":"123456789dfef13","phone":"51987654fe324","email":"zefeefa@zao.com","address":"Rua fefefA 345"}
+2023-02-28T20:45:51.001Z [store-api] info GET /suppliers
+2023-02-28T20:46:05.000Z [store-api] info GET /supplier
+2023-02-28T20:46:19.931Z [store-api] error PUT  - Nome, cnpj, email, telefone, endereço e supplier_id são obrigatórios
+2023-02-28T20:46:20.515Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-02-28T20:46:29.766Z [store-api] info PUT /supplier - {"supplier_id":2,"name":"Zefa Manefa","cnpj":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-02-28T20:47:05.569Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-02-28T20:49:22.899Z [store-api] info DELETE /supplier
+2023-03-01T13:43:16.299Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:44:40.808Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:44:59.664Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T13:46:06.707Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:46:20.958Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:46:41.560Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:47:47.015Z [store-api] error POST  - Nome, descripion, valeu, stock e supplier_id são obrigatórios
+2023-03-01T13:48:41.120Z [store-api] error POST  - null value in column "value" violates not-null constraint
+2023-03-01T13:49:32.465Z [store-api] info POST /product - {"product_id":7,"supplier_id":1,"name":"notebook","description":"muito bom","value":"5000","stock":20}
+2023-03-01T13:55:10.215Z [store-api] info POST /supplier - {"supplier_id":3,"name":"compudatores","cnpj":"123456713","phone":"51987654fe324","email":"compu@zao.com","address":"Rua jajaja 345"}
+2023-03-01T13:55:33.789Z [store-api] info GET /suppliers
+2023-03-01T13:55:50.784Z [store-api] info GET /products
+2023-03-01T13:56:05.011Z [store-api] info GET /product
+2023-03-01T13:56:33.937Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T13:56:45.172Z [store-api] info POST /product - {"product_id":8,"supplier_id":3,"name":"mesa","description":"muito boa","value":"500","stock":20}
+2023-03-01T13:56:50.323Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T13:56:54.424Z [store-api] info GET /products
+2023-03-01T13:57:31.283Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T13:58:36.815Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T14:15:51.715Z [store-api] error POST  - Supplier não identificado
+2023-03-01T14:45:48.384Z [store-api] error POST  - Cliente ou Produto não identificado
+2023-03-01T14:46:27.862Z [store-api] error POST  - null value in column "client_id" violates not-null constraint
+2023-03-01T14:47:27.990Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T14:47:46.426Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T14:48:06.150Z [store-api] info POST /sale - {"sale_id":2,"client_id":4,"product_id":8,"value":"30000","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T14:48:34.869Z [store-api] info POST /sale - {"sale_id":3,"client_id":7,"product_id":7,"value":"300","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T14:49:03.443Z [store-api] info GET /sales
+2023-03-01T14:49:27.050Z [store-api] info GET /sale
+2023-03-01T14:50:56.887Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T14:53:04.367Z [store-api] error PUT  - Nome, cpf, email, telefone, endereço e client_id são obrigatórios
+2023-03-01T14:53:16.607Z [store-api] error PUT  - Cliente ou Produto não identificado
+2023-03-01T14:54:02.245Z [store-api] info PUT /sale - {"sale_id":4,"client_id":2,"product_id":8,"value":"3000","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T14:55:46.708Z [store-api] info PUT /sale - {"sale_id":3,"client_id":2,"product_id":8,"value":"3000","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T14:56:30.784Z [store-api] info DELETE /sale
+2023-03-01T14:59:30.943Z [store-api] error PUT  - Supplier não identificado
+2023-03-01T15:00:46.343Z [store-api] info DELETE /client
+2023-03-01T19:07:22.076Z [store-api] info GET /products
+2023-03-01T19:08:07.537Z [store-api] error POST  - Cannot access 'sale' before initialization
+2023-03-01T19:09:15.675Z [store-api] error POST  - column "descritpion" of relation "products" does not exist
+2023-03-01T19:10:53.911Z [store-api] info POST /sale - {"sale_id":6,"client_id":6,"product_id":7,"value":"3050","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:11:52.385Z [store-api] info GET /products
+2023-03-01T19:12:14.104Z [store-api] info GET /products
+2023-03-01T19:15:34.574Z [store-api] info POST /sale - {"sale_id":7,"client_id":6,"product_id":7,"value":"3050","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:15:59.905Z [store-api] info GET /products
+2023-03-01T19:17:55.861Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T19:19:37.373Z [store-api] info GET /product
+2023-03-01T19:21:15.823Z [store-api] error POST  - Supplier não identificado
+2023-03-01T19:21:34.403Z [store-api] info POST /product - {"product_id":9,"supplier_id":3,"name":"mesa digitalizadora","description":"boa pacas","value":"1500","stock":100}
+2023-03-01T19:22:26.227Z [store-api] error PUT  - Supplier não identificado
+2023-03-01T19:22:32.427Z [store-api] info PUT /product - {"product_id":10,"supplier_id":1,"name":"dkdkdkd","description":"Zefa Manefa","value":"3000","stock":150}
+2023-03-01T19:22:58.959Z [store-api] error POST  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T19:24:18.830Z [store-api] error PUT  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-01T19:26:20.917Z [store-api] info PUT /product - {"product_id":9,"supplier_id":1,"name":"dkdkdkd","description":"Zefa Manefa","value":"3000","stock":150}
+2023-03-01T19:26:44.818Z [store-api] info POST /sale - {"sale_id":8,"client_id":6,"product_id":7,"value":"3050","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:32:19.391Z [store-api] info POST /sale - {"sale_id":9,"client_id":6,"product_id":7,"value":"3051","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:34:39.484Z [store-api] info POST /sale - {"sale_id":10,"client_id":6,"product_id":7,"value":"3052","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:35:49.892Z [store-api] info POST /sale - {"sale_id":11,"client_id":6,"product_id":7,"value":"3053","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:37:14.326Z [store-api] info POST /sale - {"sale_id":12,"client_id":6,"product_id":7,"value":"3054","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:44:50.725Z [store-api] info POST /sale - {"sale_id":13,"client_id":6,"product_id":7,"value":"3055","date":"2023-03-03T03:00:00.000Z"}
+2023-03-01T19:46:14.103Z [store-api] error PUT  - Nome, descirpion, value, stock, supplier_id e product_id são obrigatórios
+2023-03-01T19:48:11.855Z [store-api] info PUT /product - {"product_id":9,"supplier_id":1,"name":"dkdkdkd","description":"Zefa Manefa","value":"3000","stock":100}
+2023-03-02T12:09:05.529Z [store-api] info GET /sales
+2023-03-02T12:10:35.926Z [store-api] error DELETE  - Venda inexistente.
+2023-03-02T12:12:18.374Z [store-api] error DELETE  - Venda inexistente.
+2023-03-02T12:12:25.699Z [store-api] error DELETE  - Venda inexistente.
+2023-03-02T12:12:31.455Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-02T12:12:40.803Z [store-api] info GET /sale
+2023-03-02T12:12:58.920Z [store-api] info GET /sales
+2023-03-02T12:13:05.924Z [store-api] info GET /sale
+2023-03-02T12:17:05.923Z [store-api] info GET /sale
+2023-03-02T12:19:39.942Z [store-api] info DELETE /sale
+2023-03-02T12:20:55.261Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-02T12:21:30.076Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-02T12:25:34.376Z [store-api] info GET /products
+2023-03-02T12:43:00.138Z [store-api] info GET /sales
+2023-03-02T12:43:15.301Z [store-api] info GET /sales
+2023-03-02T12:43:22.590Z [store-api] info GET /sales
+2023-03-02T12:44:23.979Z [store-api] info GET /sales
+2023-03-02T12:44:52.145Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-02T12:46:01.776Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-02T12:46:24.304Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T15:20:10.338Z [store-api] info DELETE /client
+2023-03-07T15:20:18.478Z [store-api] info GET /clients
+2023-03-07T15:21:30.910Z [store-api] info POST /client - {"clientId":8,"name":"Paulao do Volei","cpf":"1236678913","email":"paulo@com","phone":"51987654324","address":"Rua A 678"}
+2023-03-07T15:21:31.191Z [store-api] info POST /client - {"clientId":9,"name":"Paulao do Volei","cpf":"1236678913","email":"paulo@com","phone":"51987654324","address":"Rua A 678"}
+2023-03-07T15:21:31.376Z [store-api] info POST /client - {"clientId":10,"name":"Paulao do Volei","cpf":"1236678913","email":"paulo@com","phone":"51987654324","address":"Rua A 678"}
+2023-03-07T15:21:37.581Z [store-api] info GET /clients
+2023-03-07T15:21:46.461Z [store-api] info GET /client
+2023-03-07T15:22:35.109Z [store-api] error PUT  - Nome, cpf, email, telefone, endereço e client_id são obrigatórios
+2023-03-07T15:22:46.917Z [store-api] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2023-03-07T15:23:25.363Z [store-api] error PUT  - Nome, cpf, email, telefone, endereço e client_id são obrigatórios
+2023-03-07T15:24:56.519Z [store-api] info GET /clients
+2023-03-07T15:24:56.738Z [store-api] info PUT /client - {"clientId":10,"name":"Zefa Manefa","cpf":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-03-07T15:24:58.500Z [store-api] info GET /clients
+2023-03-07T15:25:22.173Z [store-api] info DELETE /client
+2023-03-07T15:25:27.041Z [store-api] info GET /clients
+2023-03-07T17:28:18.421Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.453Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.459Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.461Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.462Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.464Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:28:18.465Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T17:30:14.555Z [store-api] info POST /supplier - {"supplierId":4,"name":"toto","cnpj":"123456713","email":"compu@zao.com","phone":"51987654fe324","address":"Rua jajaja 345"}
+2023-03-07T17:30:20.255Z [store-api] info GET /suppliers
+2023-03-07T17:30:37.590Z [store-api] info GET /supplier
+2023-03-07T17:30:47.811Z [store-api] info DELETE /supplier
+2023-03-07T17:30:55.089Z [store-api] info GET /suppliers
+2023-03-07T17:31:17.116Z [store-api] error PUT  - Nome, cnpj, email, telefone, endereço e supplier_id são obrigatórios
+2023-03-07T17:31:35.574Z [store-api] info PUT /supplier - {"supplierId":3,"name":"Zefa Manefa","cnpj":"12345678913","phone":"51987654324","email":"zefa@zao.com","address":"Rua A 345"}
+2023-03-07T18:46:40.389Z [store-api] info GET /sales
+2023-03-07T18:47:16.202Z [store-api] error DELETE  - Cannot read property 'stock' of null
+2023-03-07T18:47:17.243Z [store-api] info GET /sales
+2023-03-07T18:47:24.915Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T18:47:34.609Z [store-api] error DELETE  - Cannot read property 'stock' of null
+2023-03-07T18:48:58.565Z [store-api] error POST  - null value in column "client_id" violates not-null constraint
+2023-03-07T18:49:11.170Z [store-api] error POST  - Valor, data, cliente_id e product_id são obrigatórios
+2023-03-07T18:50:21.630Z [store-api] error POST  - Cliente ou Produto não identificado
+2023-03-07T18:52:45.053Z [store-api] info POST /sale - {"saleId":15,"value":"2000","date":"2023-03-03","clientId":6,"productId":7}
+2023-03-07T18:52:53.016Z [store-api] info GET /sales
+2023-03-07T18:53:12.362Z [store-api] info GET /sale
+2023-03-07T18:53:26.763Z [store-api] info GET /sale
+2023-03-07T18:53:58.698Z [store-api] error PUT  - Valor, data, cliente_id e product_id são obrigatórios
+2023-03-07T18:54:13.459Z [store-api] error PUT  - Cliente ou Produto não identificado
+2023-03-07T18:54:36.255Z [store-api] error PUT  - Cliente ou Produto não identificado
+2023-03-07T18:57:21.994Z [store-api] error PUT  - Cliente ou Produto não identificado
+2023-03-07T18:58:14.895Z [store-api] error PUT  - Cliente ou Produto não identificado
+2023-03-07T19:02:09.277Z [store-api] info PUT /sale - {"saleId":15,"value":"15000","date":"2023-03-02","clientId":7,"productId":8}
+2023-03-07T19:02:09.504Z [store-api] info PUT /sale - {"saleId":15,"value":"15000","date":"2023-03-02","clientId":7,"productId":8}
+2023-03-07T19:02:13.676Z [store-api] info PUT /sale - {"saleId":15,"value":"15000","date":"2023-03-02","clientId":7,"productId":8}
+2023-03-07T19:03:30.274Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T19:03:32.578Z [store-api] info GET /sales
+2023-03-07T19:04:25.189Z [store-api] info DELETE /sale
+2023-03-07T19:04:30.045Z [store-api] info GET /sales
+2023-03-07T19:04:58.477Z [store-api] info GET /products
+2023-03-07T19:05:30.571Z [store-api] error POST  - Supplier não identificado
+2023-03-07T19:07:47.566Z [store-api] info POST /product - {"productId":11,"name":"marafunda","description":"boa pacas","value":"15","stock":100,"supplierId":3}
+2023-03-07T19:07:58.540Z [store-api] info GET /products
+2023-03-07T19:08:07.233Z [store-api] info GET /product
+2023-03-07T19:08:38.516Z [store-api] error PUT  - Supplier não identificado
+2023-03-07T19:08:45.749Z [store-api] error PUT  - Supplier não identificado
+2023-03-07T19:08:52.401Z [store-api] error PUT  - Supplier não identificado
+2023-03-07T19:09:25.491Z [store-api] info PUT /product - {"productId":11,"name":"dkdkdkd","description":"Zefa Manefa","value":"3000","stock":100,"supplierId":1}
+2023-03-07T19:09:41.403Z [store-api] info DELETE /product
+2023-03-07T19:09:49.043Z [store-api] info GET /products
+2023-03-07T19:11:27.029Z [store-api] info DELETE /product
+2023-03-07T19:11:33.542Z [store-api] info GET /products
+2023-03-07T19:11:59.927Z [store-api] info DELETE /product
+2023-03-07T19:12:10.019Z [store-api] info GET /products
+2023-03-07T19:15:12.084Z [store-api] info GET /product
+2023-03-07T19:15:36.759Z [store-api] info DELETE /product
+2023-03-07T19:15:38.582Z [store-api] info DELETE /product
+2023-03-07T19:15:39.768Z [store-api] info DELETE /product
+2023-03-07T19:15:41.063Z [store-api] info DELETE /product
+2023-03-07T19:16:17.016Z [store-api] info DELETE /product
+2023-03-07T19:16:35.856Z [store-api] info DELETE /product
+2023-03-07T19:16:45.665Z [store-api] info DELETE /product
+2023-03-07T19:33:25.358Z [store-api] info GET /sales
+2023-03-07T19:37:55.508Z [store-api] info GET /sales
+2023-03-07T19:38:34.032Z [store-api] info GET /sales
+2023-03-07T19:40:02.048Z [store-api] error DELETE  - Operation timeout
+2023-03-07T19:40:19.844Z [store-api] error DELETE  - Operation timeout
+2023-03-07T19:40:30.785Z [store-api] error DELETE  - Operation timeout
+2023-03-07T19:46:49.699Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T19:47:01.574Z [store-api] info DELETE /sale
+2023-03-07T19:47:14.579Z [store-api] info GET /sales
+2023-03-07T19:48:27.559Z [store-api] info GET /sales
+2023-03-07T19:48:30.673Z [store-api] info POST /sale - {"saleId":16,"value":"2000","date":"2023-03-03","clientId":6,"productId":7}
+2023-03-07T19:48:36.548Z [store-api] info POST /sale - {"saleId":17,"value":"2000","date":"2023-03-03","clientId":6,"productId":7}
+2023-03-07T19:48:41.466Z [store-api] info GET /sales
+2023-03-07T20:01:52.044Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T20:01:57.258Z [store-api] info GET /sales
+2023-03-07T20:02:35.295Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T20:03:33.762Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T20:03:33.979Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T20:03:34.625Z [store-api] error DELETE  - Venda inexistente.
+2023-03-07T20:03:41.031Z [store-api] info GET /sales
+2023-03-07T20:06:29.935Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T20:06:29.960Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T20:06:29.963Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-07T20:06:29.965Z [store-api] error DELETE  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-08T13:23:47.109Z [store-api] info GET /sales
+2023-03-08T13:24:10.136Z [store-api] info GET /sales
+2023-03-08T14:28:00.476Z [store-api] error POST  - Product_id é obrigatório
+2023-03-08T14:29:25.445Z [store-api] error POST  - connection timed out
+2023-03-08T14:29:48.218Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T14:30:05.527Z [store-api] info POST /product/info {"productId":11,"category":"boa","with":15,"heigth":10,"depth":3,"_id":"64089bed84e78468ebb4f533"}
+2023-03-08T17:23:47.878Z [store-api] info POST /product/info {"productId":11,"category":"boa","with":15,"heigth":10,"depth":30}
+2023-03-08T17:27:28.683Z [store-api] error POST  - connection timed out
+2023-03-08T17:27:30.014Z [store-api] info POST /product/info {"productId":10,"category":"boa","with":15,"heigth":10,"depth":10,"_id":"6408c5810dee79784c9cc60b"}
+2023-03-08T17:28:03.809Z [store-api] info POST /product/info {"productId":7,"category":"bem boa","with":15,"heigth":10,"depth":10,"_id":"6408c5a30dee79784c9cc60c"}
+2023-03-08T17:42:05.640Z [store-api] error GET  - procuctId is not defined
+2023-03-08T17:44:11.784Z [store-api] error GET  - productId is not defined
+2023-03-08T17:45:53.279Z [store-api] info GET /product
+2023-03-08T17:49:37.966Z [store-api] info GET /product
+2023-03-08T17:49:57.216Z [store-api] error GET  - connection timed out
+2023-03-08T18:06:59.862Z [store-api] error POST  - connection timed out
+2023-03-08T18:07:17.881Z [store-api] error POST  - Cannot read properties of undefined (reading 'push')
+2023-03-08T18:14:40.059Z [store-api] error POST  - Cannot read properties of undefined (reading 'push')
+2023-03-08T18:14:48.665Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T18:21:03.736Z [store-api] error POST  - Performing an update on the path '_id' would modify the immutable field '_id'
+2023-03-08T18:21:26.293Z [store-api] error POST  - connection timed out
+2023-03-08T18:21:46.841Z [store-api] error POST  - connection timed out
+2023-03-08T18:21:59.091Z [store-api] error POST  - Performing an update on the path '_id' would modify the immutable field '_id'
+2023-03-08T18:24:27.167Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T18:24:53.997Z [store-api] error POST  - connection timed out
+2023-03-08T18:25:03.787Z [store-api] error POST  - connection timed out
+2023-03-08T18:27:55.683Z [store-api] info POST /product/info {"productId":7,"category":"bem boa","with":15,"heigth":10,"depth":10,"reviews":[],"_id":"6408d3aafa13fdbb0b764506"}
+2023-03-08T18:29:43.921Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T18:29:46.783Z [store-api] info POST /product/review
+2023-03-08T18:38:53.851Z [store-api] info POST /product/review
+2023-03-08T18:39:40.310Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T18:39:44.692Z [store-api] info POST /product/review
+2023-03-08T18:54:04.756Z [store-api] info Delete /product/review
+2023-03-08T19:06:50.108Z [store-api] info GET /productsAll
+2023-03-08T19:07:28.871Z [store-api] info GET /productsAll
+2023-03-08T19:09:34.883Z [store-api] info GET /productsAll
+2023-03-08T19:09:36.991Z [store-api] info GET /productsAll
+2023-03-08T19:12:11.287Z [store-api] info GET /productsAll
+2023-03-08T19:12:22.507Z [store-api] info GET /productsAll
+2023-03-08T19:13:38.420Z [store-api] info GET /productsAll
+2023-03-08T19:14:50.611Z [store-api] info POST /product/info {"productId":8,"category":"ba","with":15,"heigth":10,"depth":10,"reviews":[],"_id":"6408deaa03cf64ccbfafbd09"}
+2023-03-08T19:15:31.232Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T19:15:56.531Z [store-api] info POST /product/info {"productId":9,"category":"som","with":15,"heigth":10,"depth":10,"reviews":[],"_id":"6408deec03cf64ccbfafbd0a"}
+2023-03-08T19:16:05.889Z [store-api] error POST  - connection timed out
+2023-03-08T19:17:41.969Z [store-api] info POST /product/info {"productId":10,"category":"video","with":15,"heigth":10,"depth":10,"reviews":[],"_id":"6408df5503cf64ccbfafbd0b"}
+2023-03-08T19:17:51.191Z [store-api] info GET /productsAll
+2023-03-08T19:22:02.277Z [store-api] info GET /productsAll
+2023-03-08T19:22:04.242Z [store-api] info GET /productsAll
+2023-03-08T19:22:05.378Z [store-api] info GET /productsAll
+2023-03-08T19:23:48.010Z [store-api] info GET /productsAll
+2023-03-08T19:23:49.758Z [store-api] info GET /productsAll
+2023-03-08T19:23:50.728Z [store-api] info GET /productsAll
+2023-03-08T19:23:51.645Z [store-api] info GET /productsAll
+2023-03-08T19:23:52.477Z [store-api] info GET /productsAll
+2023-03-08T19:23:53.306Z [store-api] info GET /productsAll
+2023-03-08T19:23:54.081Z [store-api] info GET /productsAll
+2023-03-08T19:23:54.833Z [store-api] info GET /productsAll
+2023-03-08T19:24:18.755Z [store-api] info GET /productsAll
+2023-03-08T19:24:40.987Z [store-api] info GET /productsAll
+2023-03-08T19:27:44.717Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-08T19:27:44.733Z [store-api] error GET  - connect ETIMEDOUT 3.86.103.247:5432
+2023-03-08T19:51:02.325Z [store-api] info GET /productsAll
+2023-03-08T19:52:13.892Z [store-api] info GET /productsAll
+2023-03-08T19:54:54.988Z [store-api] info GET /productsAll
+2023-03-08T19:54:55.923Z [store-api] error GET  - Server selection timed out after 30000 ms
+2023-03-08T20:27:39.476Z [store-api] error POST  - Server selection timed out after 30000 ms
+2023-03-08T20:27:46.259Z [store-api] info GET /products
+2023-03-08T20:27:46.430Z [store-api] info GET /products
+2023-03-08T20:28:15.311Z [store-api] info POST /product - {"productId":12,"name":"somzinho","description":"nassa pacas","value":"15","stock":100,"supplierId":3}
+2023-03-08T20:28:36.965Z [store-api] info POST /product/info {"productId":12,"category":"video","with":15,"heigth":10,"depth":10,"reviews":[]}
+2023-03-08T20:29:52.536Z [store-api] info POST /product/info {"productId":12,"category":"video","with":15,"heigth":10,"depth":10,"reviews":[]}
+2023-03-08T20:30:01.018Z [store-api] info GET /productsAll
+2023-03-08T20:31:28.687Z [store-api] info POST /product/info {"productId":11,"category":"boa","with":15,"heigth":10,"depth":30}
+2023-03-08T20:31:39.606Z [store-api] info POST /product/info {"productId":12,"category":"video","with":15,"heigth":10,"depth":10,"reviews":[]}
+2023-03-08T20:33:36.309Z [store-api] info GET /productsAll
+2023-03-08T20:39:34.271Z [store-api] info GET /productsAll
+2023-03-08T20:39:38.739Z [store-api] info GET /productsAll
+2023-03-08T20:39:39.735Z [store-api] info GET /productsAll
+2023-03-08T20:39:42.209Z [store-api] info GET /productsAll
