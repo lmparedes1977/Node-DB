@@ -8,7 +8,7 @@ import { Sequelize } from "sequelize";
 
 //   const pool = new pg.Pool({
 //     connectionString:
-//       "postgres://uppegnvy:wm4Fk3o5YPF5lh7U9CQolKBeX52fHr7i@suleiman.db.elephantsql.com/uppegnvy",
+//       "url de conexão",
 //   });
 //   global.connection = pool;
 
@@ -16,7 +16,7 @@ import { Sequelize } from "sequelize";
 // }
 
 const sequelize = new Sequelize(
-  "postgres://uppegnvy:wm4Fk3o5YPF5lh7U9CQolKBeX52fHr7i@suleiman.db.elephantsql.com/uppegnvy",
+  "url de conexão",
   {
     dialect: "postgres",
     define: {
